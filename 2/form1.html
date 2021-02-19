@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Style</title>
+    <style>
+        .form{
+            background-color: #e2e22dab;
+            width: 400px;
+            text-align: center;
+            padding: 10px 0px;
+            margin:   auto;
+        }
+        input{
+            margin-top: 10px;
+        }
+        .btn{
+            padding: 10px 30px;
+            border-radius: 20px;
+            background-color: green;
+            color: white;
+            outline: none;
+            border: none;
+        }
+        h3{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h3>Personal Details</h3>
+        Name: <input type="text"><br>
+        Password: <input type="password"><br>
+        Email id: <input type="email"><br>
+        Gender:   <input type="radio" name="gender">Male  <input type="radio" name="gender"> <br>
+        Contact: <input type="text"><br><br> 
+        <h3>Educational Qualification</h3>
+        Degree: <select name="car" id="">
+            <option value="" selected>--select group--</option>
+            <option value="">BSS</option>
+            <option value="">BSc</option>
+            <option value="">BBA</option>
+        </select> <br>
+        Engineering: <select name="" id="">
+            <option value="" selected>--select group</option>
+            <option value="">Diploma</option>
+        </select><br>
+        Hobbies: <input type="checkbox"> Chess <input type="checkbox">Reading Booksbr
+        <h3>Address</h3>
+        <textarea name="" id="" cols="30" rows="10" style="height: 60px;"></textarea><br>
+        Attach resume <input type="file">
+        <input class="btn" type="button" value="SUBMMIT">
+    </div>
+</body>
+</html>
